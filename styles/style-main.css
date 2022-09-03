@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Fantasy, Fantasy, Fantasy;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(37, 36, 45);
+
+
+}
+
+.topnav a {
+  float: left;
+  color: #4db5b0;
+  padding: 9px 16px;
+  text-decoration: none;
+  font-size: 20px;  
+}
+
+.topnav a:hover {
+  background-color: rgba(72, 38, 38, 0);
+  color: #4db5b0;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #04AA6D;
+  color: white;
+  line-height: 42px;
+
+}
+.box{
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+}
+.manubox{
+  padding: 30px 30px 20px 40px;
+}
+.button {
+  position: relative;
+  width: 150px;
+  height: 43px;
+  left: 1000px;
+
+  top: -51px;
+  
+  border-radius: 26px;
+
+  background: #4db5b0;
+
+  color: #ffffff;
+  text-align: center;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  line-height: 42px;
+}
+
+.flex_box {
+  display: flex;
+}
+img {
+  border-radius: 50%;
+
+}
+
+
